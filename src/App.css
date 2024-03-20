@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+    color: #fff;
+}
+.gradiant-text{
+    -webkit-background-clip: text;
+    @apply bg-gradient-to-t from-blue-500 to-cyan-400 text-transparent;
+}
